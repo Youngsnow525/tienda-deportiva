@@ -16,12 +16,26 @@
 #titulo-tienda{
   position: relative;
   font-size: 1cm;
-  top: 1cm;
+  top: 0cm;
   transition: top 2s;
 }
 #titulo-tienda:hover{
   top: 19cm;
 }
+#sub-tienda{
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: top 2s, left 2s;
+}
+#sub-tienda:hover{
+  top: 5cm;
+  left: 13cm;
+}
+#subtitulo-productos{
+  
+}
+
 
 header {
   background-color: #987ec6;

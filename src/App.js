@@ -17,13 +17,13 @@ function App() {
       <header>
         <h2 id='info' >esta pagina esta echa con react😊</h2>
         <h1 id='titulo-tienda' >Tienda Deportiva Espinar</h1>
-        <p>Equipamiento para campeones locales</p>
+        <p id='sub-tienda' >Equipamiento para campeones locales</p>
       </header>
 
 
 
       <main>
-        <h2>Productos</h2>
+        <h2 id='subtitulo-productos' >Productos</h2>
 
 
 
