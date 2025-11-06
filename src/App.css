@@ -6,9 +6,21 @@
 }
 #info{
   font-size: 11px;
+  transform-origin: center;
+  transition: transform 1s;
+  box-shadow: 0px 3px 7px black;
+}
+#info:hover{
+  transform: scale(7.9);
 }
 #titulo-tienda{
+  position: relative;
   font-size: 1cm;
+  top: 1cm;
+  transition: top 2s;
+}
+#titulo-tienda:hover{
+  top: 19cm;
 }
 
 header {
@@ -36,7 +48,7 @@ main {
   padding: 1rem;
   border-radius: 8px;
   width: 200px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 7px rgba(0,0,0,1);
   transition: transform 0.2s ease;
 }
 
