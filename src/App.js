@@ -15,8 +15,8 @@ function App() {
 
 
       <header>
-        <h2>esta pagina esta echa con react😊</h2>
-        <h1>Tienda Deportiva Espinar</h1>
+        <h2 id='info' >esta pagina esta echa con react😊</h2>
+        <h1 id='titulo-tienda' >Tienda Deportiva Espinar</h1>
         <p>Equipamiento para campeones locales</p>
       </header>
 
@@ -40,7 +40,8 @@ function App() {
         </div>
 
 
-        <div>
+        <div className='saludo'>
+          <p>Mas Productos</p>
 
         </div>
 

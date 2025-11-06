@@ -4,6 +4,12 @@
   padding: 2rem;
   background-color: #dbb2e6;
 }
+#info{
+  font-size: 11px;
+}
+#titulo-tienda{
+  font-size: 1cm;
+}
 
 header {
   background-color: #987ec6;
@@ -57,4 +63,14 @@ footer {
   margin-top: 3rem;
   font-size: 0.8rem;
   color: #555;
+}
+.saludo{
+  background: #987ec6;
+  box-shadow: 0px 1px 2px black;
+  transform-origin: center;
+  transition: transform 1s;
+}
+.saludo:hover{
+  transform: scale(1.1);
+
 }
